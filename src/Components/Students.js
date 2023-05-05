@@ -1,8 +1,6 @@
-import React, { useState } from 'react'
 import Base from '../Base/Base';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
@@ -21,7 +19,7 @@ function Students({student,setstudent}) {
     description={"This page contains data of Students"}
     >
     <Container>
-      <Row>
+      <div className='boxes'>
         {student.map((obj,index)=>(
           <Col className='cards'>
               <Card style={{ width: '18rem' }} key={index} >
@@ -48,7 +46,7 @@ function Students({student,setstudent}) {
     </Card>
           </Col>
         ))}
-      </Row>
+      </div>
     </Container>
     </Base>
   )

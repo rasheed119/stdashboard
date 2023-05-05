@@ -5,11 +5,15 @@
 .row{
   gap: 1rem;
 }
-.child{
-  padding-left: 100px;
-}
+
 .card{
   margin: 10px;
+}
+
+.boxes{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .welcome{
   width: 100%;
