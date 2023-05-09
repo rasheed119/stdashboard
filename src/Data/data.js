@@ -34,6 +34,17 @@ var data =  [
   gender: "male",
   batch: "B45WD",
   qualification: "B.E-Mech"
+},{
+  name: "Mahesh",
+  gender: "male",
+  batch: "-",
+  qualification: "B.E-Mech"
+},
+{
+  name: "Kumar",
+  gender: "male",
+  batch: "-",
+  qualification: "B.E-Mech"
 }
 ];
 export default data;
